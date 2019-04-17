@@ -1,0 +1,12 @@
+{
+  "name": "conf_video_play",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ConfluencePlayMp4.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "zip -r out.zip *.json manifest.json"
+  },
+  "author": "",
+  "license": "ISC"
+}

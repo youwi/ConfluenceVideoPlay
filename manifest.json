@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "Confluence video player directly",
+  "version": "1.0",
+
+  "description": "Confluence  video player,for mp4/mp3; it will replace dom to support video ;\n 用于支持Confluence直接播放mp4文件.它直接替换元素来使用浏览器原生功能;",
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["ConfluencePlayMp4.js"],
+      "run_at": "document_end"
+    }
+  ]
+
+}
